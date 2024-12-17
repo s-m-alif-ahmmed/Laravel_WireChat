@@ -97,7 +97,7 @@ class User extends Authenticatable
      */
     public function canCreateGroups(): bool
     {
-        return $this->hasVerifiedEmail();
+        return true;
     }
 
     /**
